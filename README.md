@@ -11,6 +11,6 @@ viewtool: $xmlauthtool
 #set($dummy = $data.put("var1", "here is var 1"))
 #set($dummy = $data.put("var2", "var2"))
 
-#set($xml = $xmlauthtool.read("https://myxmlpost.com/postToMe", "username", "password", $data))
+#set($xml = $xmlauthtool.read("https://myxmlpost.com/postToMe.xml", "username", "password", $data))
 
 ```
