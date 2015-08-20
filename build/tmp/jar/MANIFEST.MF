@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-Description: dotCMS - XmlAuthtool
+Bundle-SymbolicName: plugin-xmltool-with-auth
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1440030195000
+Bundle-DocURL: http://www.dotcms.com
+Bundle-Vendor: dotcms
+Import-Package: com.dotcms.repackage.org.apache.commons.codec.binary;v
+ ersion=0,com.dotcms.repackage.org.apache.http;version=0,com.dotcms.re
+ package.org.apache.http.client;version=0,com.dotcms.repackage.org.apa
+ che.http.client.entity;version=0,com.dotcms.repackage.org.apache.http
+ .client.methods;version=0,com.dotcms.repackage.org.apache.http.impl.c
+ lient;version=0,com.dotcms.repackage.org.apache.http.message;version=
+ 0,com.dotcms.repackage.org.apache.http.params;version=0,com.dotcms.re
+ package.org.osgi.framework;version=0,com.dotmarketing.osgi;version=0,
+ com.dotmarketing.util;version=0,com.dotmarketing.viewtools;version=0,
+ org.apache.velocity.tools.view;version=0,org.apache.velocity.tools.vi
+ ew.context;version=0,org.apache.velocity.tools.view.servlet;version=0
+ ,org.apache.velocity.tools.view.tools;version=0
+DynamicImport-Package: *
+Tool: Bnd-2.1.0.20130426-122213
+Export-Package: com.dotcms.osgi.xmlauthtool;version="0.1";uses:="com.d
+ otcms.repackage.org.osgi.framework,com.dotmarketing.osgi",com.dotcms.
+ osgi.xmlauthtool.viewtool;version="0.1";uses:="com.dotmarketing.viewt
+ ools,org.apache.velocity.tools.view.servlet,org.apache.velocity.tools
+ .view.tools"
+Bundle-Name: XmlAuthtool Viewtool
+Bundle-Version: 0.1
+Bundle-Activator: com.dotcms.osgi.xmlauthtool.Activator
+Created-By: 1.8.0_51 (Oracle Corporation)
+
