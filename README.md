@@ -1,6 +1,6 @@
 # XMLTool with Auth
 
-## Credit
+## Description
 This tool reimplements the XMLTool included with dotCMS but adds the ability to use basic HTTP-AUTH and also to do a POST and pass a map of parameters as data
 
 ## Usage
